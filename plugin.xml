@@ -2,10 +2,10 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="com.m2corp.wifiwizard_dev"
+	id="com.pylonproducts.wifiwizard"
 	version="0.2.8">
 
-    <name>WifiWizard_dev</name>
+    <name>WifiWizard</name>
     <description>This plugin allows Phonegap applications to manage Wifi connections.</description>
 	<author>original author Matt Parsons, forked by Tim Kalinowski</author>
 	<keywords>phonegap,network,wifi</keywords>
@@ -25,7 +25,7 @@
 
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="WifiWizard">
-				<param name="android-package" value="com.m2corp.wifiwizard_dev.WifiWizard" />
+				<param name="android-package" value="com.pylonproducts.wifiwizard.WifiWizard" />
 				<param name="onload" value="true" />
 			</feature>
 		</config-file>
